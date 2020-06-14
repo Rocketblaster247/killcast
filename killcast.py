@@ -126,11 +126,11 @@ def appkill():
 		url = 'http://{}:{}/apps/Netflix'.format(ip, port)
 		r = requests.delete(url, headers=header)
 		print ('\n', end='')
-	elif choice == '3':
-		print (G + '[+]' + C + ' Killing Google Play Music...')
-		url = 'http://{}:{}/apps/GoogleMusic'.format(ip, port)
-		r = requests.delete(url, headers=header)
-		print ('\n', end='')
+	#elif choice == '3':
+	#	print (G + '[+]' + C + ' Killing Google Play Music...')
+	#	url = 'http://{}:{}/apps/GoogleMusic'.format(ip, port)
+	#	r = requests.delete(url, headers=header)
+	#	print ('\n', end='')
 	print ('\n', end='')
 
 def core():
